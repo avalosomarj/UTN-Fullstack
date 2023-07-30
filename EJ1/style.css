@@ -1,0 +1,58 @@
+.titulo{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    width: 95vw;
+    background-color: black;
+    border-radius: 8px;
+}
+
+h1{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+    padding-left: 40px;
+}
+
+.txt-html{
+    color: rgba(0, 162, 255, 0.575);
+    font-weight: bolder;
+}
+
+.txt-css{
+    color: green;
+    font-weight: bolder;
+}
+
+.car{
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 15px;
+    background-color: rgb(49, 125, 131);
+    border-radius: 20px;
+}
+
+.car h2{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.car img{
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+.car p{
+    font-size: 12px;
+}
+
+.car p .precio{
+    color: greenyellow;
+}
