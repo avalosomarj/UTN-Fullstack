@@ -1,0 +1,125 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.txtInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 93, 34);
+    padding: 1vh;
+    font-style: italic;
+    position: relative;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.137);
+}
+
+.txtInfo h1{
+    width: 500px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.txtInfo h2{
+    width: 500px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.txtInfo .bi-x-circle-fill{
+    font-size: 20px;
+    position: absolute;
+    top: auto;
+    right: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh;
+    gap: 50px;
+    /* background-color: bisque; */
+}
+
+.container .inputBuscador{
+    position: relative;
+}
+
+.container .inputBuscador input{
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    position: relative;
+    padding: 20px 5px 20px 15px;
+}
+
+.container .inputBuscador .bi-search{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: black;
+}
+
+.container button{
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(255, 93, 34);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.356);
+}
+
+.container button .bi-person-circle{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.container .carrito{
+    width: 30px;
+    position: relative;
+}
+
+.container .carrito .bi-cart-fill{
+    color: black;
+    font-size: 25px;
+}
+
+.container .carrito span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: -8px;
+    right: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgb(255, 93, 34);
+    padding: 4vh;
+}
+
+nav a{
+    color: black;
+}
+
+nav a:hover{
+    color: white;
+}
